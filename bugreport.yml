@@ -1,0 +1,19 @@
+- summary: |
+    Не производится проверка решения
+  environment: |
+    Google Chrome Version 123.0.6312.58 (Official Build) (64-bit)
+    ОС Ubuntu 20.04.6 LTS
+    Version 2a3d15d
+  steps-to-reproduce: |
+    1.Зайти в настройки, нажав на свой никнейм
+    2.Выбрать звук Standard
+    3.Нажать кнопку Save
+    4.Перейти на главную страницу
+    5.Нажать на кнопку Create a game
+    6.Нажать на кнопку Create battle
+    7.Нажать кнопку Run
+  expected-result: |
+    Выполняется проверка решения
+  actual-result: |
+    Проверка решения не выполняется
+    Редактор кода зависает
